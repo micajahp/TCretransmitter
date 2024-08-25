@@ -108,7 +108,7 @@ Temperature Measured - Requested = ERROR
 	</tr>
 	<tr>
 		<td>
-			<img href="https://github.com/micajahp/TCretransmitter/blob/6338c7ee9b93160cce23817e16b4885732725d9e/Samples.png">
+			<img src="https://github.com/micajahp/TCretransmitter/blob/6338c7ee9b93160cce23817e16b4885732725d9e/Samples.png">
 		</td>
   		<td>
 			Temperature Requested - Red</br>
