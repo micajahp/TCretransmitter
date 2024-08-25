@@ -118,7 +118,7 @@ Temperature Measured - Requested = ERROR
 	</tr>
  	<tr>
   		<td>
-    			![./Error.png](./Error.png)
+    			![Error.png](Error.png)
 		</td>
 		<td>
 			Adjusted Error Rates With Temperature Sampling</br>
