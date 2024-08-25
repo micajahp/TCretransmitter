@@ -100,22 +100,47 @@ Generate Voltage
 Measure Temperature 
 Temperature Measured - Requested = ERROR
 
+<table>
+	<tr>
+		<th>
+			Results
+		</th>
+	</tr>
+	<tr>
+		<td>
+			![image-2024-2-21_9-56-18](https://github.com/user-attachments/assets/483876af-6090-4074-b032-599bfd44071a)
+		</td>
+  		<td>
+			Temperature Requested - Red</br>
+			Actual Temperature Simulated - Green</br>
+			Temperature Read - Blue
+		</td>
+	</tr>
+ 	<tr>
+  		<td>
+    			![image-2024-2-21_9-57-36](https://github.com/user-attachments/assets/78809fda-b458-4710-8460-949afa2125bb)
+		</td>
+		<td>
+			Adjusted Error Rates With Temperature Sampling</br>
+			<table>
+				<tr>
+					<th>
+						σRMS
+					</th>
+					<th>
+	    					μRMS
+					</th>
+				</tr>
+				<tr>
+					<td>0.049949</td>
+					<td>0.055588</td>
+				</tr>
+			</table></br>
+			Added Variance in sample from edge case hits.</br>
+			Cannot simulate temperatures in excess of 227C, while sample includes requests up to 230C.
+		</td>
+	</tr>
+</table>
 
-Results
 
-
-Temperature Requested - Red
-
-Actual Temperature Simulated - Green
-
-Temperature Read - Blue
-
-
-
-Adjusted Error Rates With Temperature Sampling
-
-σRMS	μRMS
-0.049949	0.055588
-Added Variance in sample from edge case hits.
-Cannot simulate temperatures in excess of 227C, while sample includes requests up to 230C.
 
