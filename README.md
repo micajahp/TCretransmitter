@@ -118,7 +118,7 @@ Temperature Measured - Requested = ERROR
 	</tr>
  	<tr>
   		<td>
-    			[Error.png](Error.png)
+    			<img src="https://github.com/micajahp/TCretransmitter/blob/0d2f76301fd3a728e5b1821bcd1157048ce51b01/Error.png">
 		</td>
 		<td>
 			Adjusted Error Rates With Temperature Sampling</br>
