@@ -74,12 +74,12 @@ Resistor loop is also used in voltage divider for increasing accuracy of 152 out
 
 Hot Side (Voltages Above 0): near linear polynomial regression for fitting voltage output to requested temperature.
 
-vout = (-0.0000001*(x**4)) + (-0.00007*(x**3))  +  (0.0153 * (x*x)) + (19.002*x) + (-425.57)
+<b> vout = (-0.0000001*(x**4)) + (-0.00007*(x**3))  +  (0.0153 * (x*x)) + (19.002*x) + (-425.57) </b>
 
 
 Cold Side (Voltages Below 0): polynomial regression for fitting voltage output to requested temperature.
 
-vout = (-0.000015*(x**3)) + (0.0231*(x**2)) + (19.198*(x)) - 416.79
+<b>vout = (-0.000015*(x**3)) + (0.0231*(x**2)) + (19.198*(x)) - 416.79</b>
 
 Voltage Divider: Symmetrical 10k,40,10k (10k, 10,10,10,10, 10k)
 
