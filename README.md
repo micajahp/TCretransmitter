@@ -64,15 +64,15 @@ Highest or Lowest: Take highest temperature when approaching hot limits, and low
 
 
 		
-Simplified process flow
-MCC 134 to Sample TC
-Convert TC data to raw voltage
+<h2>Simplified process flow</h2>
+MCC 134 to Sample TC</br>
+Convert TC data to raw voltage</br></br>
 
-MCC 152 outputs Voltage from Analog output channel to Voltage Divider
-Resistor loop is used to keep open TC detection from alarming chambers or data logging hardware
-Resistor loop is also used in voltage divider for increasing accuracy of 152 output, due to limited resolution and voltage range.
+MCC 152 outputs Voltage from Analog output channel to Voltage Divider</br>
+Resistor loop is used to keep open TC detection from alarming chambers or data logging hardware</br>
+Resistor loop is also used in voltage divider for increasing accuracy of 152 output, due to limited resolution and voltage range.</br></br>
 
-Hot Side (Voltages Above 0): near linear polynomial regression for fitting voltage output to requested temperature.
+Hot Side (Voltages Above 0): near linear polynomial regression for fitting voltage output to requested temperature.</br></br>
 
 <b> vout = (-0.0000001*(x**4)) + (-0.00007*(x**3))  +  (0.0153 * (x*x)) + (19.002*x) + (-425.57) </b>
 
