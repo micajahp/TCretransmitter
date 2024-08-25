@@ -118,7 +118,7 @@ Temperature Measured - Requested = ERROR
 	</tr>
  	<tr>
   		<td>
-    			![image-2024-2-21_9-57-36](https://github.com/user-attachments/assets/78809fda-b458-4710-8460-949afa2125bb)
+    			![image-2024-2-21_9-57-36.png](https://github.com/user-attachments/assets/78809fda-b458-4710-8460-949afa2125bb)
 		</td>
 		<td>
 			Adjusted Error Rates With Temperature Sampling</br>
