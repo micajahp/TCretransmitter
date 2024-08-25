@@ -99,11 +99,16 @@ Submit to Voltage generator as 'corrected'
 Generate Voltage
 Measure Temperature 
 Temperature Measured - Requested = ERROR
-
+<h2>
+	Results
+</h2>
 <table>
 	<tr>
 		<th>
-			Results
+			Graph
+		</th>
+		<th>
+			Description
 		</th>
 	</tr>
 	<tr>
