@@ -10,42 +10,60 @@ All average: take the temperature from all units and average, then feed to asset
 Highest or Lowest: Take highest temperature when approaching hot limits, and lowest when approaching low limits. Allows for zero overshoot/ undershoot. generally slower, but safer for individual units. If the test is not properly characterized, or setup and a large delta occurs between units at target temps, some units may never reach targets. 
 <h2>BOM</h2>
 <table>
-  <tr>
-    <th>
-      MCC 152 or other remote power supply
-    </th>
-    <th>
-      MCC 134 or other temperature capable DAQ
-    </th>
-    <th>
-      Raspi, Microcontroller with gpio / i2c comms and Imaged PC
-    </th>
-  </tr>
-  <tr>
-    <th>
-      $150 to 5000
-    </th>
-    <th>
-      $150 to 5000
-    </th>
-    <th>
-      $50 to 500
-    </th>
-  </tr>
-  <tr>
-    <th>
-      Output emulated TC reading to resource that consumes a temperature value
-    </th>
-    <th>
-      Take temperature reading from sample to then reproduce or to take ambient temperature measurement to offset errors
-    </th>
-    <th>
-      Runs emulator software and hardware
-    </th>
-  </tr>
+	<tr>
+		<th>Required Device</th>
+		<th>Cost</th>
+		<th>Purpose</th>
+	</tr>
+	<tr>
+		<td>
+			MCC 134 or other temperature capable DAQ
+		</td>
+		<td>
+			$150 to 5000	
+		</td>
+		<td>
+			Take temperature reading from sample to then reproduce or to take ambient temperature measurement to offset errors
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MCC 152 or other remote power supply	
+		</td>
+		<td>
+   			$150 to 5000	
+		</td>
+		<td>
+   			Output emulated TC reading to resource that consumes a temperature value
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Raspi, Microcontroller with gpio / i2c comms and Imaged PC	
+		</td>
+		<td>
+   			$50 to 500	
+		</td>
+		<td>
+      			Runs emulator software and hardware
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Resistors	
+		</td>
+		<td>
+   			$20	
+		</td>
+		<td>
+			Various resistors for voltage divider to bring the high voltage/ high resolution power supply down to the range of typical temperature measurement devices
+		</td>
+	</tr>
 </table>
+
+
+
 		
-Resistors	$20	Various resistors for voltage divider to bring the high voltage/ high resolution power supply down to the range of typical temperature measurement devices
 Simplified process flow
 MCC 134 to Sample TC
 Convert TC data to raw voltage
