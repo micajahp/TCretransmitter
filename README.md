@@ -83,7 +83,9 @@ Cold Side (Voltages Below 0): polynomial regression for fitting voltage output t
 
 Voltage Divider: Symmetrical 10k,40,10k (10k, 10,10,10,10, 10k)
 
-Power supply channel 1 + routed to far left, channel 2 + to far right, channel 1 and 2 - to center common between center two 10 ohm
+Power supply channel 1 + routed to far left, channel 2 + to far right</br></br>
+
+Medthod for error correction removed in this copy.
  
 
 Adjusted_Temperature = Requested_Temperature - (Measured Error)
@@ -146,6 +148,9 @@ Temperature Measured - Requested = ERROR
 		</td>
 	</tr>
 </table>
-
-
+<h2>
+Application
+</h2>
+	Given accuracy and repeatablility, expected failure modes, and abort handling, hardware should only be used with product control open detection. </br>
+ Errors can be handled with chamber communication where available, otherwise set error condition by open signal to product control can be used to abort testing. 
 
