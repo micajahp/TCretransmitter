@@ -85,9 +85,8 @@ Voltage Divider: Symmetrical 10k,40,10k (10k, 10,10,10,10, 10k)
 
 Power supply channel 1 + routed to far left, channel 2 + to far right</br></br>
 
-Medthod for error correction removed in this copy.
+<b>Method for error correction removed in this copy.</b>
  
-
 Adjusted_Temperature = Requested_Temperature - (Measured Error)
 
 
